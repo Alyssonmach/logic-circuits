@@ -1,0 +1,30 @@
+Sistema de codificação - Definição
+
+	Quando números, letras ou palavras são 
+representados por um grupo especial de símbolos,
+dizemos que estão codificados, e o grupo de 
+símbolos é chamado de código.
+	Provavelmente um dos códigos mais 
+conhecidos é o codigo Morse, em que uma série de 
+traços e pontos representam as letras do
+alfabeto.
+
+Codificação:
+
+Informação Geral -> Regras (Código) -> Informação Codificada
+
+Decodificação:
+
+Interpretação da informação codificada.
+
+Conversão de Código: codificação ou decodificação
+(para cada tipo de processamento há um código
+diferente que é mais apropriado).
+
+I - Implementação de um decodificador binário
+    - Usando o logisim;
+    - Implementação da equação booleana através da tabela verdade;
+II - Implementação de um codificador binário
+     - Usando o logisim;
+     - Implementação da equação booleana através da tabela verdade;
+
