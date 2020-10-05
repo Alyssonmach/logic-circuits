@@ -1,0 +1,27 @@
+Introdução
+
+- Abordar alguns multiplexadores e demultiplexadores;
+- Conhecer algumas representações;
+- Aplicações de mux e demux;
+
+Multiplexadores
+
+- Multiplexadores ou só mux, são circuitos combinacionais
+que têm como função principal selecionar através de 
+chaves qual de suas entradas será transmitidas por sua
+única saída;
+- São utilizados para combinar dados distintos em um só
+transferindo esses dados de uma só vez, por meio de uma
+única ligação;
+Além disso, podem ser usados como chaves seletoras de 
+alta velocidade em circuitos;
+
+Demultiplexadores
+
+- Demultiplexadores ou Demux, são responsáveis pela 
+operação inversa ao multiplexador, ou seja, escolhe
+em qual saída a informação de sua única entrada 
+irá sair;
+- É bastante usado juntamente ao multiplexador, em 
+sistemas de comunicação. O demux recebe o sinal do mux
+e seleciona em qual canal de comunicação vai sair;
