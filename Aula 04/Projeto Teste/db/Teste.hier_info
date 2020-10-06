@@ -1,0 +1,8 @@
+|Teste
+A => u3.IN0
+B => u4.IN0
+S => u4.IN1
+S => u3.IN1
+X << u5.DB_MAX_OUTPUT_PORT_TYPE
+
+
