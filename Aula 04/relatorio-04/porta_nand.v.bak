@@ -1,0 +1,13 @@
+module porta_nand
+(
+	input a, b,
+	output s
+);
+
+	wire ab;
+	
+	porta_and and1(a, b, ab);
+	
+	assign s = ~ab;
+	
+endmodule 

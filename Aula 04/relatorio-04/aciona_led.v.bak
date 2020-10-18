@@ -1,0 +1,9 @@
+module aciona_led
+(
+	input [2:0]KEY,
+	output [2:0]LEDG
+);
+
+	assign LEDG[2:0] = KEY[2:0];
+	
+endmodule 
