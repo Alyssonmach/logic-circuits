@@ -1,0 +1,89 @@
+$comment
+	File created using the following command:
+		vcd file relatorio04.msim.vcd -direction
+$end
+$date
+	Sun Oct 18 22:09:42 2020
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module verifica_individuos_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var wire 1 $ s $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + s~output_o $end
+$var wire 1 , c~input_o $end
+$var wire 1 - a~input_o $end
+$var wire 1 . b~input_o $end
+$var wire 1 / or1|s~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+0,
+0-
+0.
+1/
+$end
+#1000000
+1#
+1,
+#2000000
+1"
+0#
+1.
+0,
+#3000000
+1!
+0"
+1-
+0.
+#4000000
+1"
+1.
+0/
+0+
+0$
+#5000000
+1#
+0"
+1,
+0.
+1/
+1+
+1$
+#6000000
+0!
+1"
+0-
+1.
+#7000000
+1!
+1-
+#8000000
