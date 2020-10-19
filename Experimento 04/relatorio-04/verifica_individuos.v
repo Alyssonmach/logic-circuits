@@ -8,10 +8,6 @@ module verifica_individuos
 	
 	porta_nand nad1(a, b, ab);
 	
-	wire ec; 
-	
-	porta_or or1(ab, c, ec);
-	
-	assign s = ec;
+	porta_or or1(ab, c, s);
 	
 endmodule 
