@@ -1,0 +1,9 @@
+module Mod_Teste1
+(
+	input [3:0]A, B,
+	output [3:0]S, Ts
+);
+
+	somador_4bits soma_4bits(A, B, 0, S, Ts);
+	
+endmodule 
