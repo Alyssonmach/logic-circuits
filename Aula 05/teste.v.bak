@@ -1,0 +1,13 @@
+module teste
+(
+	input [3:0]a, b,
+	input ci,
+	output [3:0]s, ts 
+	
+	wire a_aux;
+	seletor_ic_4bits sic1(a, c1, a_aux);
+	assign a_aux = a;
+	somador_4bits(a, b, ci, s, ts);
+);
+
+endmodule 

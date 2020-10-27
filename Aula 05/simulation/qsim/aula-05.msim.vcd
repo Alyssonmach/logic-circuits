@@ -1,0 +1,222 @@
+$comment
+	File created using the following command:
+		vcd file aula-05.msim.vcd -direction
+$end
+$date
+	Mon Oct 26 20:00:39 2020
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module somador_subtrator_vlg_vec_tst $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 1 # ci $end
+$var wire 1 $ Ov $end
+$var wire 1 % S [3] $end
+$var wire 1 & S [2] $end
+$var wire 1 ' S [1] $end
+$var wire 1 ( S [0] $end
+$var wire 1 ) Ts [3] $end
+$var wire 1 * Ts [2] $end
+$var wire 1 + Ts [1] $end
+$var wire 1 , Ts [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 S[0]~output_o $end
+$var wire 1 4 S[1]~output_o $end
+$var wire 1 5 S[2]~output_o $end
+$var wire 1 6 S[3]~output_o $end
+$var wire 1 7 Ts[0]~output_o $end
+$var wire 1 8 Ts[1]~output_o $end
+$var wire 1 9 Ts[2]~output_o $end
+$var wire 1 : Ts[3]~output_o $end
+$var wire 1 ; Ov~output_o $end
+$var wire 1 < A[0]~input_o $end
+$var wire 1 = B[0]~input_o $end
+$var wire 1 > somador|sc1|s~0_combout $end
+$var wire 1 ? A[1]~input_o $end
+$var wire 1 @ B[1]~input_o $end
+$var wire 1 A ci~input_o $end
+$var wire 1 B seletor|ic2|S~combout $end
+$var wire 1 C somador|sc1|ts~0_combout $end
+$var wire 1 D somador|sc1|ts~1_combout $end
+$var wire 1 E somador|sc2|s~combout $end
+$var wire 1 F A[2]~input_o $end
+$var wire 1 G B[2]~input_o $end
+$var wire 1 H somador|sc2|ts~0_combout $end
+$var wire 1 I somador|sc3|s~0_combout $end
+$var wire 1 J B[3]~input_o $end
+$var wire 1 K A[3]~input_o $end
+$var wire 1 L somador|sc3|ts~0_combout $end
+$var wire 1 M somador|sc4|s~0_combout $end
+$var wire 1 N somador|sc1|ts~combout $end
+$var wire 1 O somador|sc4|ts~0_combout $end
+$var wire 1 P overflow|x~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 !
+b1 "
+0#
+0$
+1(
+0'
+1&
+0%
+0,
+0+
+0*
+0)
+0-
+1.
+x/
+10
+11
+12
+13
+04
+15
+06
+07
+08
+09
+0:
+0;
+0<
+1=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+1F
+0G
+0H
+1I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+$end
+#1000000
+b0 !
+b1 !
+b1001 "
+1J
+1<
+0F
+1D
+1M
+1N
+0>
+0I
+05
+03
+17
+16
+1%
+1,
+0(
+0&
+1E
+14
+1'
+#2000000
+1#
+b101 !
+b100 !
+b1 "
+1A
+0J
+0<
+1F
+0D
+1B
+0N
+1L
+1>
+13
+19
+07
+0,
+1*
+1(
+1O
+0M
+06
+1:
+1)
+0%
+#3000000
+b0 !
+b1 !
+b1001 "
+1J
+1<
+0F
+1D
+1P
+0O
+1M
+1N
+0>
+0L
+1I
+15
+09
+03
+17
+16
+0:
+1;
+1$
+0)
+1%
+1,
+0(
+0*
+1&
+1H
+0E
+0P
+0M
+06
+0;
+04
+18
+1+
+0'
+0$
+0%
+1L
+0I
+05
+19
+1*
+0&
+1P
+1M
+16
+1;
+1$
+1%
+#4000000

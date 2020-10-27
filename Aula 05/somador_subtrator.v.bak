@@ -1,0 +1,15 @@
+module somador_subtrator
+(
+	input [3:0]A, B,
+	input ci,
+	output [3:0]S, Ts,
+	output Ov;
+);
+	
+	wire B_aux;
+	seletor_ic_4bits seletor1(B, ci, B_aux);
+	somador_completo somador1(A, B_aux, ci, S, Ts);
+	estouro(S, A, B_aux, Ov);
+	
+endmodule 
+	

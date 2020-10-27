@@ -1,0 +1,10 @@
+module seletor_ic
+(
+	input A[3:0],
+	input m,
+	output [3:0]S
+);
+
+	igualdade_complemento_1 ic1(A, m, S);
+	
+endmodule 

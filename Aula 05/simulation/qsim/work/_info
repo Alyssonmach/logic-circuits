@@ -1,0 +1,333 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Aula 05/simulation/qsim
+vestouro
+!s110 1603738167
+!i10b 1
+!s100 _2[d`XFfBV81[XH]>C?iG1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAT1RIE2HK@0P1_8PS3P2H3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1603738162
+Z3 8aula-05.vo
+Z4 Faula-05.vo
+!i122 26
+L0 32 86
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1603738167.000000
+Z6 !s107 aula-05.vo|
+Z7 !s90 -work|work|aula-05.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vestouro_vlg_vec_tst
+!s110 1603738168
+!i10b 1
+!s100 1`5FL][LjdQITcl5<Fclf0
+R1
+IJ2cULa^H5B06W9cfYZHJz3
+R2
+R0
+w1603738160
+8WaveForm_estouro.vwf.vt
+FWaveForm_estouro.vwf.vt
+!i122 27
+L0 30 46
+R5
+r1
+!s85 0
+31
+!s108 1603738168.000000
+!s107 WaveForm_estouro.vwf.vt|
+!s90 -work|work|WaveForm_estouro.vwf.vt|
+!i113 1
+R8
+R9
+vigualdade_complemento_1
+!s110 1603751904
+!i10b 1
+!s100 DH=na3l=l1T<Q:>Z9@YLD0
+R1
+I3mG@=fKL2>dn4fXB<;6P53
+R2
+R0
+w1603751901
+R3
+R4
+!i122 62
+L0 32 74
+R5
+r1
+!s85 0
+31
+Z10 !s108 1603751904.000000
+R6
+R7
+!i113 1
+R8
+R9
+vigualdade_complemento_1_vlg_vec_tst
+!s110 1603751905
+!i10b 1
+!s100 PNLYAkfh;j=e[4cAKOFLV1
+R1
+IaCX@`8o7M5ZESodX63mO52
+R2
+R0
+w1603751900
+Z11 8WaveForm_ic_4bits.vwf.vt
+Z12 FWaveForm_ic_4bits.vwf.vt
+!i122 63
+L0 30 18
+R5
+r1
+!s85 0
+31
+R10
+Z13 !s107 WaveForm_ic_4bits.vwf.vt|
+Z14 !s90 -work|work|WaveForm_ic_4bits.vwf.vt|
+!i113 1
+R8
+R9
+vseletor_ic_4bits
+Z15 !s110 1603745190
+!i10b 1
+!s100 _G6INUN6;==JF^;dF3>k:3
+R1
+IaEjK_hEOZ_8>`XMk^zgVC0
+R2
+R0
+w1603745188
+R3
+R4
+!i122 40
+L0 32 200
+R5
+r1
+!s85 0
+31
+Z16 !s108 1603745190.000000
+R6
+R7
+!i113 1
+R8
+R9
+vseletor_ic_4bits_vlg_vec_tst
+R15
+!i10b 1
+!s100 [6GR7[1mED8JaAi`<`F5H2
+R1
+IC<hF`=cE78_:QEOSl[R4H3
+R2
+R0
+w1603745186
+R11
+R12
+!i122 41
+L0 30 55
+R5
+r1
+!s85 0
+31
+R16
+R13
+R14
+!i113 1
+R8
+R9
+vsomador_4bits
+Z17 !s110 1603752454
+!i10b 1
+!s100 WYV_lo:h_DWQc67?4Cm=z0
+R1
+IlFf`6dRT3CH4Ynh?zM5:^1
+R2
+R0
+w1603752450
+R3
+R4
+!i122 64
+Z18 L0 32 372
+R5
+r1
+!s85 0
+31
+!s108 1603752453.000000
+R6
+R7
+!i113 1
+R8
+R9
+vsomador_4bits_vlg_vec_tst
+R17
+!i10b 1
+!s100 8O[52FY2I1RB>3GEXTKl80
+R1
+I>2KjPKiJeDXihD7;niVom2
+R2
+R0
+w1603752448
+8Waveform_somador_4bits.vwf.vt
+FWaveform_somador_4bits.vwf.vt
+!i122 65
+L0 30 85
+R5
+r1
+!s85 0
+31
+!s108 1603752454.000000
+!s107 Waveform_somador_4bits.vwf.vt|
+!s90 -work|work|Waveform_somador_4bits.vwf.vt|
+!i113 1
+R8
+R9
+vsomador_subtrator
+Z19 !s110 1603753238
+!i10b 1
+!s100 F_Fdh5[1_9VVjE<3c7=792
+R1
+I;ZH=4Mg[@F91ejD61Cfoa0
+R2
+R0
+w1603753235
+R3
+R4
+!i122 66
+L0 32 457
+R5
+r1
+!s85 0
+31
+Z20 !s108 1603753238.000000
+R6
+R7
+!i113 1
+R8
+R9
+vsomador_subtrator_vlg_vec_tst
+R19
+!i10b 1
+!s100 Uzg01>Se3LMi1F8aV2g>m0
+R1
+I4ZGgkIRk2DlJHPjeLj:H41
+R2
+R0
+w1603753233
+8Waveform_som_sub.vwf.vt
+FWaveform_som_sub.vwf.vt
+!i122 67
+L0 30 82
+R5
+r1
+!s85 0
+31
+R20
+!s107 Waveform_som_sub.vwf.vt|
+!s90 -work|work|Waveform_som_sub.vwf.vt|
+!i113 1
+R8
+R9
+vsubtrator_4bits
+Z21 !s110 1603725043
+!i10b 1
+!s100 TQXCo9>EM@@0bNY9m@J;32
+R1
+IRNHKeJ1h9IL3BR^fHSRX@2
+R2
+R0
+w1603725040
+R3
+R4
+!i122 20
+R18
+R5
+r1
+!s85 0
+31
+!s108 1603725042.000000
+R6
+R7
+!i113 1
+R8
+R9
+vsubtrator_4bits_vlg_vec_tst
+R21
+!i10b 1
+!s100 hFRD86IDkcS41oLJ7`m`>2
+R1
+IQBSgZlzECmj:4Czgcj5RO1
+R2
+R0
+w1603725038
+8Waveform_subtrator_4bits.vwf.vt
+FWaveform_subtrator_4bits.vwf.vt
+!i122 21
+L0 30 90
+R5
+r1
+!s85 0
+31
+!s108 1603725043.000000
+!s107 Waveform_subtrator_4bits.vwf.vt|
+!s90 -work|work|Waveform_subtrator_4bits.vwf.vt|
+!i113 1
+R8
+R9
+vteste
+Z22 !s110 1603745881
+!i10b 1
+!s100 Y8UD]0^z3]WZzTe<[N2EC0
+R1
+I3X`ZU>0kQ0O75XNzDlABB3
+R2
+R0
+w1603745879
+R3
+R4
+!i122 48
+R18
+R5
+r1
+!s85 0
+31
+Z23 !s108 1603745881.000000
+R6
+R7
+!i113 1
+R8
+R9
+vteste_vlg_vec_tst
+R22
+!i10b 1
+!s100 MQA@JL?k`bliB<fSk3OdY2
+R1
+IEmT@`QVHU2nlahmD^WOgR0
+R2
+R0
+w1603745878
+8Waveform_teste.vwf.vt
+FWaveform_teste.vwf.vt
+!i122 49
+L0 30 70
+R5
+r1
+!s85 0
+31
+R23
+!s107 Waveform_teste.vwf.vt|
+!s90 -work|work|Waveform_teste.vwf.vt|
+!i113 1
+R8
+R9
