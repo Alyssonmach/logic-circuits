@@ -1,0 +1,16 @@
+module ff_jk
+(
+	input j, k,
+	input clear, clk,
+	output q
+);
+
+	always @ (posedge clk, posedge ~clear)
+		case({j, k})
+			2'b00:q <= j&(~q) | (~j)&k;
+			2'b01:q = 1'b0;
+			2'b10:q = 1'b1
+			2'b11:q <= (j&(~q) | (~j)&k);
+		endcase
+
+endmodule 

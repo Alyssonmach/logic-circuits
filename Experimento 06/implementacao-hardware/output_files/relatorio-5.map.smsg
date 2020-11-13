@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ff_jk.v(10): always construct contains both blocking and non-blocking assignments File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/ff_jk.v Line: 10

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim
+vff_jk
+Z1 !s110 1605217920
+!i10b 1
+!s100 LRe;]JW`6:e<^4Dn8_eAH2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILP<n`AJ7Eh6fL^Z^z@g2N1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605217918
+8relatorio-5.vo
+Frelatorio-5.vo
+!i122 46
+L0 32 117
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1605217920.000000
+!s107 relatorio-5.vo|
+!s90 -work|work|relatorio-5.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vff_jk_vlg_vec_tst
+R1
+!i10b 1
+!s100 GfJ_WajjI90YkL4gO;kf_0
+R2
+I:Yi`5aB=59g6JP^X3oBgJ2
+R3
+R0
+w1605217917
+8Waveform-ff-jk.vwf.vt
+FWaveform-ff-jk.vwf.vt
+!i122 47
+L0 30 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform-ff-jk.vwf.vt|
+!s90 -work|work|Waveform-ff-jk.vwf.vt|
+!i113 1
+R6
+R7

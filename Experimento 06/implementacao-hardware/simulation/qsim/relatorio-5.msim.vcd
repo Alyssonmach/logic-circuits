@@ -1,0 +1,110 @@
+$comment
+	File created using the following command:
+		vcd file relatorio-5.msim.vcd -direction
+$end
+$date
+	Thu Nov 12 18:52:01 2020
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module ff_jk_vlg_vec_tst $end
+$var reg 1 ! clear $end
+$var reg 1 " clk $end
+$var reg 1 # j $end
+$var reg 1 $ k $end
+$var wire 1 % q $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , q~output_o $end
+$var wire 1 - clk~input_o $end
+$var wire 1 . j~input_o $end
+$var wire 1 / k~input_o $end
+$var wire 1 0 Mux0~0_combout $end
+$var wire 1 1 clear~input_o $end
+$var wire 1 2 q~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+1#
+1$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+1.
+1/
+10
+11
+02
+$end
+#1000000
+1"
+0#
+0.
+1-
+00
+12
+1,
+1%
+#2000000
+0"
+1#
+1.
+0-
+#3000000
+1"
+0#
+0.
+1-
+02
+0,
+0%
+#4000000
+0"
+1#
+1.
+0-
+10
+#5000000
+1"
+0#
+0.
+1-
+00
+12
+1,
+1%
+#6000000
+0"
+1#
+1.
+0-
+#7000000
+1"
+0#
+0.
+1-
+02
+0,
+0%
+#8000000

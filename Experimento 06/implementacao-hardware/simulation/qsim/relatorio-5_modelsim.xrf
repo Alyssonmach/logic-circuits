@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/ff_jk.v
+source_file = 1, C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/Waveform-ff-jk.vwf
+source_file = 1, C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/db/relatorio-5.cbx.xml
+design_name = ff_jk
+instance = comp, \q~output , q~output, ff_jk, 1
+instance = comp, \clk~input , clk~input, ff_jk, 1
+instance = comp, \j~input , j~input, ff_jk, 1
+instance = comp, \k~input , k~input, ff_jk, 1
+instance = comp, \Mux0~0 , Mux0~0, ff_jk, 1
+instance = comp, \clear~input , clear~input, ff_jk, 1
+instance = comp, \q~reg0 , q~reg0, ff_jk, 1
