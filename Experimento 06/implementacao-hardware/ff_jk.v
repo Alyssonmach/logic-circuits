@@ -1,11 +1,8 @@
-module ff_jk 
-( 
-	input j, 
-	input k, 
-	input clk,
-	input clear,
-	output reg q
-);   
+module ff_jk(clear, clk, j, k, q);
+
+	input clear, clk, j, k; 
+	output reg q;
+
   
    always @ (posedge clk, negedge clear)
 		begin
@@ -22,3 +19,4 @@ module ff_jk
 		end
 			
 endmodule  
+

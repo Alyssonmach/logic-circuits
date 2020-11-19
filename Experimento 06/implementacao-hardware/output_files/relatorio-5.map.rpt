@@ -1,5 +1,5 @@
 Analysis & Synthesis report for relatorio-5
-Thu Nov 12 18:49:23 2020
+Thu Nov 19 15:40:49 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -14,10 +14,11 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
- 12. Analysis & Synthesis Suppressed Messages
+  9. Port Connectivity Checks: "decadico:cs1|ff_jk:ff1"
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
+ 13. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -44,15 +45,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 12 18:49:22 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 19 15:40:49 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; relatorio-5                                 ;
-; Top-level Entity Name              ; ff_jk                                       ;
+; Top-level Entity Name              ; mod_test4                                   ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1                                           ;
-;     Total combinational functions  ; 1                                           ;
-;     Dedicated logic registers      ; 1                                           ;
-; Total registers                    ; 1                                           ;
+; Total logic elements               ; 5                                           ;
+;     Total combinational functions  ; 5                                           ;
+;     Dedicated logic registers      ; 4                                           ;
+; Total registers                    ; 4                                           ;
 ; Total pins                         ; 5                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -66,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                            ; ff_jk              ; relatorio-5        ;
+; Top-level entity name                                            ; mod_test4          ; relatorio-5        ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -163,54 +164,61 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                       ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                         ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------+---------+
-; ff_jk.v                          ; yes             ; User Verilog HDL File  ; C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/ff_jk.v ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                           ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                             ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------+---------+
+; ff_jk.v                          ; yes             ; User Verilog HDL File  ; C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/ff_jk.v     ;         ;
+; decadico.v                       ; yes             ; User Verilog HDL File  ; C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/decadico.v  ;         ;
+; mod_test4.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/mod_test4.v ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------+---------+
 
 
-+------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary          ;
-+---------------------------------------------+--------+
-; Resource                                    ; Usage  ;
-+---------------------------------------------+--------+
-; Estimated Total logic elements              ; 1      ;
-;                                             ;        ;
-; Total combinational functions               ; 1      ;
-; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 0      ;
-;     -- 3 input functions                    ; 1      ;
-;     -- <=2 input functions                  ; 0      ;
-;                                             ;        ;
-; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 1      ;
-;     -- arithmetic mode                      ; 0      ;
-;                                             ;        ;
-; Total registers                             ; 1      ;
-;     -- Dedicated logic registers            ; 1      ;
-;     -- I/O registers                        ; 0      ;
-;                                             ;        ;
-; I/O pins                                    ; 5      ;
-;                                             ;        ;
-; Embedded Multiplier 9-bit elements          ; 0      ;
-;                                             ;        ;
-; Maximum fan-out node                        ; q~reg0 ;
-; Maximum fan-out                             ; 2      ;
-; Total fan-out                               ; 12     ;
-; Average fan-out                             ; 1.00   ;
-+---------------------------------------------+--------+
++------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                            ;
++---------------------------------------------+--------------------------+
+; Resource                                    ; Usage                    ;
++---------------------------------------------+--------------------------+
+; Estimated Total logic elements              ; 5                        ;
+;                                             ;                          ;
+; Total combinational functions               ; 5                        ;
+; Logic element usage by number of LUT inputs ;                          ;
+;     -- 4 input functions                    ; 1                        ;
+;     -- 3 input functions                    ; 1                        ;
+;     -- <=2 input functions                  ; 3                        ;
+;                                             ;                          ;
+; Logic elements by mode                      ;                          ;
+;     -- normal mode                          ; 5                        ;
+;     -- arithmetic mode                      ; 0                        ;
+;                                             ;                          ;
+; Total registers                             ; 4                        ;
+;     -- Dedicated logic registers            ; 4                        ;
+;     -- I/O registers                        ; 0                        ;
+;                                             ;                          ;
+; I/O pins                                    ; 5                        ;
+;                                             ;                          ;
+; Embedded Multiplier 9-bit elements          ; 0                        ;
+;                                             ;                          ;
+; Maximum fan-out node                        ; decadico:cs1|ff_jk:ff1|q ;
+; Maximum fan-out                             ; 5                        ;
+; Total fan-out                               ; 33                       ;
+; Average fan-out                             ; 1.74                     ;
++---------------------------------------------+--------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |ff_jk                     ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 5    ; 0            ; |ff_jk              ; ff_jk       ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name               ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------+-------------+--------------+
+; |mod_test4                 ; 5 (0)               ; 4 (0)                     ; 0           ; 0            ; 0       ; 0         ; 5    ; 0            ; |mod_test4                        ; mod_test4   ; work         ;
+;    |decadico:cs1|          ; 5 (1)               ; 4 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mod_test4|decadico:cs1           ; decadico    ; work         ;
+;       |ff_jk:ff1|          ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mod_test4|decadico:cs1|ff_jk:ff1 ; ff_jk       ; work         ;
+;       |ff_jk:ff2|          ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mod_test4|decadico:cs1|ff_jk:ff2 ; ff_jk       ; work         ;
+;       |ff_jk:ff3|          ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mod_test4|decadico:cs1|ff_jk:ff3 ; ff_jk       ; work         ;
+;       |ff_jk:ff4|          ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mod_test4|decadico:cs1|ff_jk:ff4 ; ff_jk       ; work         ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -219,14 +227,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1     ;
+; Total registers                              ; 4     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 1     ;
+; Number of registers using Asynchronous Clear ; 4     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "decadico:cs1|ff_jk:ff1"                                                                                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; j     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; j[-1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; k     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; k[-1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -235,14 +255,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 5                           ;
-; cycloneiii_ff         ; 1                           ;
-;     CLR               ; 1                           ;
-; cycloneiii_lcell_comb ; 1                           ;
-;     normal            ; 1                           ;
+; cycloneiii_ff         ; 4                           ;
+;     CLR               ; 4                           ;
+; cycloneiii_lcell_comb ; 5                           ;
+;     normal            ; 5                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 2                           ;
 ;         3 data inputs ; 1                           ;
+;         4 data inputs ; 1                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.67                        ;
+; Average LUT depth     ; 0.90                        ;
 +-----------------------+-----------------------------+
 
 
@@ -251,7 +274,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -261,26 +284,43 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Thu Nov 12 18:49:04 2020
+    Info: Processing started: Thu Nov 19 15:40:17 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off relatorio-5 -c relatorio-5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file ff_jk.v
     Info (12023): Found entity 1: ff_jk File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/ff_jk.v Line: 1
-Info (12127): Elaborating entity "ff_jk" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file cont_10_assyc.v
+    Info (12023): Found entity 1: cont_10_assyc File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/cont_10_assyc.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux2_1.v
+    Info (12023): Found entity 1: mux2_1 File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/mux2_1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file registrador_4bits.v
+    Info (12023): Found entity 1: registrador_4bits File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/registrador_4bits.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decadico.v
+    Info (12023): Found entity 1: decadico File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/decadico.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mod_test1.v
+    Info (12023): Found entity 1: mod_test1 File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/mod_test1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mod_test2.v
+    Info (12023): Found entity 1: mod_test2 File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/mod_test2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mod_test4.v
+    Info (12023): Found entity 1: mod_test4 File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/mod_test4.v Line: 1
+Info (12127): Elaborating entity "mod_test4" for the top level hierarchy
+Info (12128): Elaborating entity "decadico" for hierarchy "decadico:cs1" File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/mod_test4.v Line: 6
+Info (12128): Elaborating entity "ff_jk" for hierarchy "decadico:cs1|ff_jk:ff1" File: C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/decadico.v Line: 11
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/output_files/relatorio-5.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 1 logic cells
-Info (144001): Generated suppressed messages file C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/output_files/relatorio-5.map.smsg
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4742 megabytes
-    Info: Processing ended: Thu Nov 12 18:49:23 2020
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:40
+Info (21057): Implemented 10 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 1 input pins
+    Info (21059): Implemented 4 output pins
+    Info (21061): Implemented 5 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4757 megabytes
+    Info: Processing ended: Thu Nov 19 15:40:50 2020
+    Info: Elapsed time: 00:00:33
+    Info: Total CPU time (on all processors): 00:00:35
 
 
 +------------------------------------------+

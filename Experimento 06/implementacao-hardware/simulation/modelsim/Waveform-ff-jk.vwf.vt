@@ -19,62 +19,57 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "11/12/2020 18:50:55"
+// Generated on "11/19/2020 09:35:09"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          ff_jk
+// Verilog Test Bench (with test vectors) for design :                          mod_test1
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module ff_jk_vlg_vec_tst();
+module mod_test1_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg clear;
-reg clk;
-reg j;
-reg k;
+reg [3:0] SW;
 // wires                                               
-wire q;
+wire LEDR;
 
 // assign statements (if any)                          
-ff_jk i1 (
+mod_test1 i1 (
 // port map - connection between master ports and signals/registers   
-	.clear(clear),
-	.clk(clk),
-	.j(j),
-	.k(k),
-	.q(q)
+	.LEDR(LEDR),
+	.SW(SW)
 );
 initial 
 begin 
 #8000000 $stop;
 end 
-
-// clear
+// SW[ 3 ]
 initial
 begin
-	clear = 1'b1;
+	SW[3] = 1'b1;
 end 
-
-// clk
+// SW[ 2 ]
 always
 begin
-	clk = 1'b0;
-	clk = #1000000 1'b1;
+	SW[2] = 1'b0;
+	SW[2] = #1000000 1'b1;
 	#1000000;
 end 
-
-// j
+// SW[ 1 ]
 initial
 begin
-	j = 1'b0;
+	SW[1] = 1'b0;
+	SW[1] = #1000000 1'b1;
+	SW[1] = #5000000 1'b0;
+	SW[1] = #1000000 1'b1;
 end 
-
-// k
+// SW[ 0 ]
 initial
 begin
-	k = 1'b0;
+	SW[0] = 1'b0;
+	SW[0] = #4000000 1'b1;
+	SW[0] = #1000000 1'b0;
 end 
 endmodule
 

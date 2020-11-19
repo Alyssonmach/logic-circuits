@@ -1,5 +1,5 @@
 EDA Netlist Writer report for relatorio-5
-Thu Nov 12 18:51:58 2020
+Thu Nov 19 15:41:59 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,9 +37,9 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Nov 12 18:51:58 2020 ;
+; EDA Netlist Writer Status ; Successful - Thu Nov 19 15:41:59 2020 ;
 ; Revision Name             ; relatorio-5                           ;
-; Top-level Entity Name     ; ff_jk                                 ;
+; Top-level Entity Name     ; mod_test4                             ;
 ; Family                    ; Cyclone IV E                          ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -95,14 +95,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Nov 12 18:51:57 2020
+    Info: Processing started: Thu Nov 19 15:41:58 2020
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/" relatorio-5 -c relatorio-5
 Info (119004): Automatically selected device EP4CE6F17C6 for design relatorio-5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file relatorio-5.vo in folder "C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4650 megabytes
-    Info: Processing ended: Thu Nov 12 18:51:58 2020
+    Info: Processing ended: Thu Nov 19 15:41:59 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

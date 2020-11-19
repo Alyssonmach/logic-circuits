@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off relatorio-5 -c relatorio-5 --vector_source="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/Waveform-ff-jk.vwf" --testbench_file="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/Waveform-ff-jk.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off relatorio-5 -c relatorio-5 --vector_source="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/wf-modtest4.vwf" --testbench_file="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/wf-modtest4.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,8 +26,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Nov 12 18:51:55 2020
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off relatorio-5 -c relatorio-5 --vector_source="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/Waveform-ff-jk.vwf" --testbench_file="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/Waveform-ff-jk.vwf.vt"
+    Info: Processing started: Thu Nov 19 15:41:57 2020
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off relatorio-5 -c relatorio-5 --vector_source="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/wf-modtest4.vwf" --testbench_file="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/wf-modtest4.vwf.vt"
 Info (119004): Automatically selected device EP4CE6F17C6 for design relatorio-5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -56,14 +56,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Nov 12 18:51:57 2020
+    Info: Processing started: Thu Nov 19 15:41:58 2020
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/" relatorio-5 -c relatorio-5
 Info (119004): Automatically selected device EP4CE6F17C6 for design relatorio-5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file relatorio-5.vo in folder "C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4650 megabytes
-    Info: Processing ended: Thu Nov 12 18:51:58 2020
+    Info: Processing ended: Thu Nov 19 15:41:59 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -83,58 +83,58 @@ Reading pref.tcl
 
 # 2020.1
 
+
 # do relatorio-5.do
 
 # ** Warning: (vlib-34) Library already exists at "work".
-
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:52:00 on Nov 12,2020
+# Start time: 15:42:01 on Nov 19,2020
 # vlog -work work relatorio-5.vo 
-# -- Compiling module ff_jk
 
+# -- Compiling module mod_test4
 # 
 # Top level modules:
-# 	ff_jk
-# End time: 18:52:00 on Nov 12,2020, Elapsed time: 0:00:00
+# 	mod_test4
+# End time: 15:42:01 on Nov 19,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:52:00 on Nov 12,2020
-# vlog -work work Waveform-ff-jk.vwf.vt 
-# -- Compiling module ff_jk_vlg_vec_tst
+# Start time: 15:42:01 on Nov 19,2020
+# vlog -work work wf-modtest4.vwf.vt 
+# -- Compiling module mod_test4_vlg_vec_tst
 # 
 # Top level modules:
-# 	ff_jk_vlg_vec_tst
-# End time: 18:52:00 on Nov 12,2020, Elapsed time: 0:00:00
+# 	mod_test4_vlg_vec_tst
+
+# End time: 15:42:01 on Nov 19,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.ff_jk_vlg_vec_tst 
-# Start time: 18:52:00 on Nov 12,2020
-# Loading work.ff_jk_vlg_vec_tst
-# Loading work.ff_jk
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mod_test4_vlg_vec_tst 
+# Start time: 15:42:01 on Nov 19,2020
+# Loading work.mod_test4_vlg_vec_tst
+# Loading work.mod_test4
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
 # Loading cycloneive_ver.cycloneive_lcell_comb
 # Loading altera_ver.dffeas
 # Loading altera_ver.PRIM_GDFF_LOW
 # after#25
-
-# ** Note: $finish    : Waveform-ff-jk.vwf.vt(51)
-#    Time: 8 us  Iteration: 0  Instance: /ff_jk_vlg_vec_tst
-# End time: 18:52:01 on Nov 12,2020, Elapsed time: 0:00:01
+# ** Note: $finish    : wf-modtest4.vwf.vt(45)
+#    Time: 10 us  Iteration: 0  Instance: /mod_test4_vlg_vec_tst
+# End time: 15:42:02 on Nov 19,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/Waveform-ff-jk.vwf...
+Reading C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/wf-modtest4.vwf...
 
 Reading C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/relatorio-5.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/relatorio-5_20201112185201.sim.vwf
+Writing the resulting VWF to C:/Users/Alysson/Documents/MeusProjetos/logic-circuits/Experimento 06/implementacao-hardware/simulation/qsim/relatorio-5_20201119154202.sim.vwf
 
 Finished VCD to VWF conversion.
 
