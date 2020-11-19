@@ -1,0 +1,9 @@
+module mux2_1
+(
+	input IO, I1, sel,
+	output Y
+);
+
+	assign Y = (sel) ? IO : I1;
+	
+endmodule 

@@ -1,0 +1,8 @@
+module mod_test4(SW, LEDR);
+
+	input SW;
+	output LEDR;
+	
+	decadico cs1(SW, LEDR);
+	
+endmodule 
