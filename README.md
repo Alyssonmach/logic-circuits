@@ -1,6 +1,14 @@
 # Laboratório de Circuitos Lógicos
 ### Experimentos feitos no Laboratório de Circuitos Lógicos.
 
+## Introdução
+
+A disciplina faz parte do currículo obrigatório do Curso de Engenharia Elétrica sendo ofertada em todos os períodos. A mesma forma a base para o aluno desenvolver circuitos e projetos na área de sistemas digitais, de fundamental importância para as áreas de automação e controle, instrumentação, telecomunicações e aplicações em várias outras áreas das engenharias.
+
+## Objetivo
+
+A disciplina tem como objetivo a aplicação prática da teoria que fundamenta a operação dos sistemas digitais, em geral. Para isso são estudadas e aplicadas as técnicas mais utilizadas na especificação, análise e projeto de circuitos lógicos. Essas técnicas visam capacitar o aluno a realizar a implementação de circuitos, a partir de blocos lógicos mais simples.
+
 ## Lista de Experimentos:
 
 |**Aula**|**Experimento**|
