@@ -9,16 +9,27 @@ A disciplina faz parte do currículo obrigatório do Curso de Engenharia Elétri
 
 A disciplina tem como objetivo a aplicação prática da teoria que fundamenta a operação dos sistemas digitais, em geral. Para isso são estudadas e aplicadas as técnicas mais utilizadas na especificação, análise e projeto de circuitos lógicos. Essas técnicas visam capacitar o aluno a realizar a implementação de circuitos, a partir de blocos lógicos mais simples.
 
+## Clonando o Repositório
+
+Crie em algum lugar do seu PC uma pasta para clonar o repositório. com o Git instalado, insira o seguinte comando:
+```
+git clone https://github.com/Alyssonmach/logic-circuits.git
+```
+
 ## Lista de Experimentos:
 
-|**Aula**|**Experimento**|
-|:-------|:--------------|
-|[Aula 1](https://github.com/Alyssonmach/logic-circuits/tree/master/Aula%2001)|[Experimento 1](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2001)|
-|[Aula 2](https://github.com/Alyssonmach/logic-circuits/tree/master/Aula%2002)|[Experimento 2](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2002)|
-|[Aula 3](https://github.com/Alyssonmach/logic-circuits/tree/master/Aula%2003)|[Experimento 3](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2003)|
-|[Aula 4](https://github.com/Alyssonmach/logic-circuits/tree/master/Aula%2004)|[Experimento 4](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2004)|
-|[Aula 5](https://github.com/Alyssonmach/logic-circuits/tree/master/Aula%2005)|[Experimento 5](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2005)|
-|[Aula 6](https://github.com/Alyssonmach/logic-circuits/tree/master/Aula%2006)|[Experimento 6](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2006)|
+|**Experimento**|
+|:--------------|
+|[Experimento 1](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2001)|
+|[Experimento 2](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2002)|
+|[Experimento 3](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2003)|
+|[Experimento 4](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2004)|
+|[Experimento 5](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2005)|
+|[Experimento 6](https://github.com/Alyssonmach/logic-circuits/tree/master/Experimento%2006)|
+
+## Projeto Final
+
+Veja o projeto desenvolvido ao final da disciplina clicando [aqui](https://github.com/Alyssonmach/sistema-seguranca-residencial).
 
 ### Alguma dúvida? Entre em contato comigo:
 - [Me envie um e-mail](alysson.barbosa@ee.ufcg.edu.br)
