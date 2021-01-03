@@ -1,8 +1,0 @@
-Bloco Lógico Universal (BLU)
-
-- O multiplexador pode ser utilizado como um Bloco
-Lógico Universal para gerar qualquer função lógica
-descrita em uma tabela verdade.
-- Funções comuns realizadas a partir do uso de uma BLU
-incluem: meio somador, subtrator, detector/gerador de 
-paridade, ULA, etc.

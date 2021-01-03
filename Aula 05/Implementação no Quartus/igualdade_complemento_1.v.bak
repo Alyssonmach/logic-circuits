@@ -1,9 +1,0 @@
-module igualdade_complemento_1
-(
-	input A, B,
-	output S
-);
-
-	assign S = A ^ B;
-	
-endmodule 
